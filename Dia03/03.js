@@ -1,3 +1,6 @@
+// Los observables son 'lazy Push collections'
+// de valores múltiples
+
 //       |  Single   | Multiple
 // ------------------------------
 // Pull  |  Function | Iterator     Guíado por el consumer:
