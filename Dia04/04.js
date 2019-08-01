@@ -1,10 +1,10 @@
 const { Observable } = rxjs;
 
-// Ejemplo 1: Los observables pueden ejecutar funciones
-// sincrónicas y asincrónicas
+// Ejemplo 1: Suscribirse a un Observable
+// es análogo a llamar a una Función.
 
 // Con Javscript
-console.log('Ejemplo 1: Los observables pueden ejecutar funciones sincrónicas y asincrónicas');
+console.log('Ejemplo 1: Suscribirse a un Observable es análogo a llamar a una Función.');
 console.log('Con Javascript');
 const fooJS = () => {
   console.log('Hello');
@@ -33,8 +33,9 @@ fooRxJS.subscribe(y => console.log(y))
 
 console.log('--------------------');
 console.log('');
-// Ejemplo 2
-console.log('Ejemplo 2');
+// Ejemplo 2: Los observables pueden ejecutar funciones
+// sincrónicas y asincrónicas
+console.log('Ejemplo 2: Los observables pueden ejecutar funciones sincrónicas y asincrónicas');
 console.log('Con Javascript');
 
 console.log('antes');
@@ -81,3 +82,7 @@ console.log('retorna un valor');
 fooRxJS3.subscribe(x => console.log(x))
 console.log('despues retorna otros');
 
+// Conclusión:
+// 1.- func.call() significa “darme un valor sincrónicamente”
+// 2.- observable.subscribe() significa “darme cualquier cantidad
+// de valores, de forma síncrona o asíncrona”
