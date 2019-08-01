@@ -17,7 +17,7 @@ const observer1 = {
   error: err => console.log('el valor de err', err),
   complete: () => console.log('completado')
 }
-const observable1 = observable.create(observer1);
+const observable1 = Observable.create(observer1);
 
 // Sin el complete()
 const observer2 = {
@@ -25,7 +25,7 @@ const observer2 = {
   error: err => console.log('el valor de err', err),
   complete: () => console.log('completado')
 }
-const observable2 = observable.create(observer2);
+const observable2 = Observable.create(observer2);
 
 // Sólo con el next(), directamente
-const observable3 = observable.create(x => console.log('El valor de x', x));
+const observable3 = Observable.create(x => console.log('El valor de x', x));
