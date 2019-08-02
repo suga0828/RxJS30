@@ -1,6 +1,6 @@
 const { Observable, interval } = rxjs;
 
-/* Objecto subscription:
+/* Objecto Subscription:
 Un Suscription es un objeto que representa un recurso
 desechable, generalmente la ejecución de un Observable.
 Este tiene un método importante, unsubscribe, que no toma
