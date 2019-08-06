@@ -12,7 +12,6 @@ const behaviorSubject = new BehaviorSubject(0);
 
 // Ejemplo 1: Usar un BehaviorSubject para almacenar
 // el valor actual de un observable
-console.log('Ejemplo 1');
 const subject = new BehaviorSubject(0);
 
 subject.subscribe({
