@@ -12,8 +12,15 @@ ReactiveX combina el patrón del observador, el patrón del iterador y la progra
 
 Los conceptos esenciales en RxJS que solucionan el manejo asíncrono de eventos son:
 
-- el Observable: representa la idea de una coleccion invocable de futuros valores o eventos.
-- el Observador: es una colecciones de callbacks que 
+- el **Observable**: representa la idea de una coleccion invocable de futuros valores o eventos.
+- el **Observador**: es una colecciones de callbacks que saben como escuchar los valores entregados por un observable.
+- la **Suscripción**: representa la ejecución de un observable, se usa principalmente para cancelar una ejecuciòn.
+- los **Operadores**: son funciones puras que permiten un estilo de la programación funcional para manejar las colecciones con operadores como `map`, `filter`, `reduce`, `every`, etc.
+- el Sujeto: es el equivalente a un `EventEmitter`, y la única forma de distribuir un valor o evento a multiples observadores.
+- los *Schedulers*: son despachadores centralizados para controlar la concurrencia, permitiéndonos coordinar cuando sucede un cálculo en, por ejemplo, `setTimeout`, un `requestAnimationFrame` u otros.
+
+### Día 1:
+En el tutorial de hoy vamos a comparar el registro de un escuchador de eventos y la suscripción a un observable.
 
 ------
 
