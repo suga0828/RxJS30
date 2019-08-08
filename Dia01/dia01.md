@@ -1,4 +1,4 @@
-# 30 dias con RxJs: Día 01 - #Rxjs30 
+# 30 días con RxJS: Día 01 - #RxJS30 
 
 #### Introduccion
 
@@ -24,7 +24,7 @@ En el tutorial de hoy vamos a comparar el registro de un escuchador de eventos y
 
 ------
 
-Sígamos al siguiente día: [día 02](https://github.com/suga0828/RxJS30/tree/master/Dia02/dia02.md).
+Sigamos al siguiente día: [día 02](https://github.com/suga0828/RxJS30/tree/master/Dia02/dia02.md).
 
 Si no seguiste el tutorial anterior puedes conseguirlo en: [día 0](https://github.com/suga0828/RxJS30/tree/master/Dia0/dia0.md).
 

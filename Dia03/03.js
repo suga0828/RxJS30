@@ -1,10 +1,3 @@
-//       |  Single   | Multiple
-// ------------------------------
-// Pull  |  Function | Iterator     Guíado por el consumer:
-// ------------------------------   el consumidor decide cuando ejecutar
-// Push  |  Promise  | OBservable   Guíado por el producer
-// ------------------------------   el productor decide cuando ejecutar
-
 const { Observable } = rxjs;
 
 let observable = Observable.create( observer => {

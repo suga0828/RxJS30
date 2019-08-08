@@ -1,4 +1,19 @@
-## Para comenzar
+# 30 días con RxJS: Día 03 - #RxJS30 
 
-A lo largo de estos tutoriales consumiremos la librería a través de [CDN](https://cdnjs.com/libraries/rxjs). Para los ejercicios sólo necesitarás crear un archivo index.html y cargarle la librería, además de crear un archivo diaXX.js cada día donde se va a escribir el código de los ejercicios. Se pretenderá seguir el contenido de la [Documentacion Oficial de RxJS](https://rxjs.dev/).
+Los observables son colecciones de envío lentas *lazy push collections* de múltiples valores. Ellos completan el lugar faltante de la siguiente tabla:
 
+|       |  Single   | Multiple
+| ------------------------------
+| Pull  |  Function | Iterator     Guíado por el consumer:
+| ------------------------------   el consumidor decide cuando ejecutar
+| Push  |  Promise  | OBservable   Guíado por el producer
+| ------------------------------   el productor decide cuando ejecutar
+
+### Día 3:
+En el ejemplo del día de hoy veremos actuar un observable de forma síncrona y de forma asíncrona.
+
+------
+
+Sigamos al siguiente día: [día 04](https://github.com/suga0828/RxJS30/tree/master/Dia04/dia04.md).
+
+Si no seguiste el tutorial anterior puedes conseguirlo en: [día 2](https://github.com/suga0828/RxJS30/tree/master/Dia02/dia02.md).
